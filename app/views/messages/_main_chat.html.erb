@@ -12,18 +12,7 @@
 </div>
 
 <div class="messages">
-  <div class="message">
-    <div class="upper-message">
-      <div class="message-user">
-      </div>
-      <div class="message-date">
-      </div>
-    </div>
-    <div class="lower-message">
-      <div class="message-content">
-      </div>
-    </div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 
